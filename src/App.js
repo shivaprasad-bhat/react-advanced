@@ -1,10 +1,13 @@
 import React from 'react';
-function App() {
-  return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
-    </div>
-  );
-}
+import Setup from './components/UseStateHook/UseStateArrayFinal';
+const App = () => {
+    return (
+        <React.Fragment>
+            <div className="container">
+                <Setup />
+            </div>
+        </React.Fragment>
+    );
+};
 
 export default App;
